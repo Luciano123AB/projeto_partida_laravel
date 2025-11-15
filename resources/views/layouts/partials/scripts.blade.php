@@ -1,5 +1,5 @@
 <script>
-    @if()
+    @if(session("") === "")
         //
     @else
         //
