@@ -18,7 +18,8 @@ class UsuariosTableSeeder extends Seeder
                 "data_nascimento" => "00/00/0000",
                 "foto" => "iVBORw0KGg...",
                 "permissao" => 1,
-                "ultimo_acesso" => "00/00/0000 00:00:00"
+                "ultimo_acesso" => "00/00/0000 00:00:00",
+                "id_nota" => 1
             ]
         ]);
     }
