@@ -10,6 +10,7 @@ class Usuario extends Model
         "nome_completo",
         "data_nascimento",
         "foto",
+        "permissao",
         "ultimo_acesso",
         "id_nota"
     ];
