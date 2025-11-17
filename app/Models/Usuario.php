@@ -7,8 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class Usuario extends Model
 {
     protected = [
-        "usuario",
-        "idade"
+        "nome_completo",
+        "data_nascimento",
+        "foto",
+        "ultimo_acesso",
+        "id_nota"
     ];
     
     public function notas() {
