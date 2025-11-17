@@ -9,6 +9,11 @@ class Nota extends Model
 {
     use SoftDeletes;
 
+    protected = [
+        "titulo",
+        "texto"
+    ];
+
     public function usuario() {
         return $this->belongsTo(Usuario::class);
     }
