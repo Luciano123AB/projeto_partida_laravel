@@ -11,3 +11,7 @@ Route::middleware([Checar::class])->group(function() {
         //
     });
 });
+
+Route::fallback(function() {
+    return redirect()->route("home");
+});
