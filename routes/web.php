@@ -8,7 +8,7 @@ Route::get("/", [MainController::class, "index"])->name("index");
 
 Route::middleware(["auth"])->group(function() {
     Route::prefix("/")->group(function () {
-        //
+        Route::get("home", [MainController::class, "home"])->name("home");
     });
 });
 
