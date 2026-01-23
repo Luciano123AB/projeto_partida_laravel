@@ -15,9 +15,7 @@ class Checar
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (!session("usuario")) {
-            return redirect("/");
-        }
+        //
 
         return $next($request);
     }

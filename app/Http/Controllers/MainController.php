@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function home() {
-        
+    public function index() {
+
         $banco = Boot::testarConexao();
         
         if ($banco == false) {
@@ -18,7 +18,7 @@ class MainController extends Controller
         if (!is_dir(base_path("node_modules"))) {
             Boot::dependencias();
         }
-        
+
         return view("index");
     }
 }

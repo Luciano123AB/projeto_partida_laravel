@@ -30,11 +30,9 @@ class Boot
             "--force" => true
         ]);
         Artisan::call("db:seed", [
-            "--class" => "UsuariosTableSeeder",
+            "--class" => "UsersTableSeeder",
             "--force" => true
         ]);
-
-        session(["boot" => true]);
     }
 
     public static function dependencias() {

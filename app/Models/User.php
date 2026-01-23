@@ -3,11 +3,14 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class Usuario extends Model
+class User extends Model
 {
-    protected = [
-        "nome_completo",
+    protected $fillable = [
+        "name",
+        "email",
+        "password",
         "data_nascimento",
         "foto",
         "permissao",
@@ -15,7 +18,7 @@ class Usuario extends Model
         "id_nota"
     ];
     
-    public function notas() {
+    public function notas(): HasMany {
         return $this->hasMany(Nota::class);
     }
 }
