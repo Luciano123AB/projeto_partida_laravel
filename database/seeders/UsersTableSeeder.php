@@ -19,9 +19,8 @@ class UsersTableSeeder extends Seeder
                 "password" => bcrypt("senha123"),
                 "data_nascimento" => "2000-01-01",
                 "foto" => "iVBORw0KGg...",
-                "permissao" => 1,
+                "permissao" => true,
                 "ultimo_acesso" => null,
-                "id_nota" => 1,
                 "email_verified_at" => now(),
                 "created_at" => now()
             ]

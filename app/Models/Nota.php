@@ -12,7 +12,8 @@ class Nota extends Model
 
     protected $fillable = [
         "titulo",
-        "texto"
+        "texto",
+        "user_id"
     ];
 
     public function user(): BelongsTo {

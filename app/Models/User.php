@@ -15,8 +15,7 @@ class User extends Model implements MustVerifyEmail
         "data_nascimento",
         "foto",
         "permissao",
-        "ultimo_acesso",
-        "id_nota"
+        "ultimo_acesso"
     ];
     
     public function notas(): HasMany {
