@@ -12,15 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create("users", function (Blueprint $table) {
-            $table->id()->comment("1");
-            $table->string("name", 80)->nullable()->comment("...");
-            $table->string("email", 100)->nullable()->comment("usuario@gmail.com");
-            $table->string("password", 255)->nullable()->comment("...");
-            $table->date("data_nascimento", 10)->nullable()->comment("0000-00-00");
-            $table->longText("foto")->comment("...");
+            $table->id();
+            $table->string("name", 80);
+            $table->string("email", 100);
+            $table->string("password", 255);
+            $table->date("data_nascimento", 10);
+            $table->longText("foto")->nullable()->comment("iVBORw0KGgo...");
             $table->boolean("permissao")->default(true)->comment("1 = Administrador | 0 = Usuário Comum");
-            $table->dateTime("ultimo_acesso")->nullable()->comment("0000-00-00 00:00:00");
-            $table->timestamp("email_verified_at")->nullable()->comment("0000-00-00 00:00:00");
+            $table->dateTime("ultimo_acesso")->nullable();
+            $table->timestamp("email_verified_at")->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

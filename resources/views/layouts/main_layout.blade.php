@@ -7,6 +7,8 @@
     <title>{{ env("APP_NAME") }}</title>
     
     @include("layouts.partials.links")
+
+    @include("layouts.partials.styles")
 </head>
 <body class="bg-light text-center fst-italic">
     <nav class="navbar bg-dark">
@@ -22,7 +24,12 @@
 
     @yield("content")
 
-    <footer class="position-absolute bottom-0 start-50 translate-middle-x mb-2"><img style="width: 35px; height: 35px;" class="border border-black" src="{{ asset("assets/images/perfil.png") }}"> © Todos os Direitos Reservados: Luciano Eduardo Stefanello da Silva - {{ date("Y") }}</footer>
+    <footer class="position-absolute bottom-0 start-50 translate-middle-x mb-2">
+        <img style="width: 35px; height: 35px;" class="border border-black" src="{{ asset("assets/images/perfil.png") }}">
+        Todos os Direitos Reservados: Luciano Eduardo Stefanello da Silva
+        <br>
+        © 2026 - {{ date("Y") }} {{ env("APP_NAME") }}
+    </footer>
 
     @include("layouts.partials.scripts")
 </body>
