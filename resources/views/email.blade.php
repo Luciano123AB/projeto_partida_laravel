@@ -5,6 +5,6 @@
     <title>Confirmação de Email</title>
 </head>
 <body>
-    <h1>VERIFICAÇÃO</h1>
+    <h1 class="fs-bold">VERIFICAÇÃO</h1>
 </body>
 </html>
