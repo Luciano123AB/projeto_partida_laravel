@@ -8,10 +8,7 @@ use Illuminate\Http\Request;
 class MainController extends Controller
 {
     public function index() {
-
-        $banco = Boot::testarConexao();
-        
-        if ($banco == false) {
+        if (Boot::testarConexao() == false) {
             Boot::criarPovoarBanco();
         }
 
