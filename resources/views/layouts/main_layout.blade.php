@@ -9,7 +9,10 @@
     @include("layouts.partials.links")
 
     @include("layouts.partials.styles")
-    @vite(["resources/css/app.css", "resources/js/app.js"])
+    @vite([
+        "resources/css/app.css",
+        "resources/js/app.js"
+    ])
 </head>
 <body class="bg-light text-center fst-italic d-flex flex-column min-vh-100">
     @include("layouts.navegacao")
