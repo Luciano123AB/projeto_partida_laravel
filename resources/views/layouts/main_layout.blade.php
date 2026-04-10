@@ -8,21 +8,21 @@
     
     @include("layouts.partials.links")
 
-    @include("layouts.partials.styles")
+    @include("layouts.partials.styles.estilos")
     @vite([
         "resources/css/app.css",
         "resources/js/app.js"
     ])
 </head>
 <body class="bg-light text-center fst-italic d-flex flex-column min-vh-100">
-    @include("layouts.navegacao")
+    @include("layouts.navbar")
 
-    <div class="d-flex justify-content-center align-items-center">
+    <div class="my-auto">
         @yield("content")
     </div>
 
-    @include("layouts.rodape")
+    @include("layouts.footer")
 
-    @include("layouts.partials.scripts")
+    @include("layouts.partials.javascripts.scripts")
 </body>
 </html>

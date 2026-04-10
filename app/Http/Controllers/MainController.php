@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Services\Boot;
-use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
@@ -17,5 +16,9 @@ class MainController extends Controller
         }
 
         return view("index");
+    }
+
+    public function home() {
+        return view("home");
     }
 }
