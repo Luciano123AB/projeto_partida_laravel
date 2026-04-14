@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\Boot;
 use App\Models\Nota;
+use App\Services\Boot;
 
 class MainController extends Controller
 {
@@ -21,9 +21,9 @@ class MainController extends Controller
 
     public function home() {
         if (Auth::user()->can("create", Nota::class)) {
-            echo "O usuário pode criar!";
+            $permissao = true;
         } else {
-            echo "O usuário não pode criar!";
+            $permissao = false;
         }
         
         return view("home");
