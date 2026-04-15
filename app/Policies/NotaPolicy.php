@@ -8,6 +8,14 @@ use Illuminate\Auth\Access\Response;
 
 class NotaPolicy
 {
+    public function before(User $user) {
+        if ($user->name === "SUPER") {
+            return true;
+        }
+
+        return null;
+    }
+    
     /**
      * Determine whether the user can view any models.
      */
