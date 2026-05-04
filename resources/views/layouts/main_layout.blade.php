@@ -8,7 +8,7 @@
     
     @include("layouts.partials.links")
 
-    @include("layouts.partials.styles.estilos")
+    @include("layouts.partials.css.estilos")
     @vite([
         "resources/css/app.css",
         "resources/js/app.js"
@@ -23,6 +23,7 @@
 
     @include("layouts.footer")
 
-    @include("layouts.partials.javascripts.scripts")
+    @include("layouts.partials.js.scripts")
+    <script src="{{ asset("assets/js/main.js") }}"></script>
 </body>
 </html>

@@ -12,6 +12,10 @@
 
 <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
 
+<link rel="stylesheet" href="https://cdn.datatables.net/2.3.8/css/dataTables.dataTables.min.css">
+
+<script src="https://cdn.datatables.net/2.3.8/js/dataTables.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
