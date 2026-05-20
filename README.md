@@ -50,7 +50,7 @@ tests/                    # Testes automatizados
 
 ## 📸 Demonstração
 
-![Tela](docs/tela_branca.png)
+![Tela](docs/index.png)
 
 ---
 
