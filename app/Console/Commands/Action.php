@@ -11,7 +11,7 @@ class Acao extends Command
      *
      * @var string
      */
-    protected $signature = '...:...';
+    protected $signature = 'alvo:acao';
 
     /**
      * The console command description.
@@ -25,6 +25,8 @@ class Acao extends Command
      */
     public function handle()
     {
+        //
+        
         return null;
     }
 }
