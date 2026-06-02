@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://projeto_partida_laravel.com.br'),
+    'url' => env('APP_URL', 'http://projeto_partida_laravel.test'),
 
     /*
     |--------------------------------------------------------------------------
