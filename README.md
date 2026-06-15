@@ -5,7 +5,9 @@
 
 ## 📜 Sobre
 
-Aplicação web partida com **Laravel**.
+Aplicação web partida com **Laravel**, com foco em:
+
+- ...
 
 ---
 
