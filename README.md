@@ -1,7 +1,7 @@
 ![Laravel](https://img.shields.io/badge/Laravel-13-red)
 ![PHP](https://img.shields.io/badge/PHP-8.5-blue)
 
-# 🌐 Projeto Partida (Laravel)
+# 🌐 Projeto Partida
 
 ## 📜 Sobre
 
@@ -14,6 +14,7 @@ Aplicação web partida com **Laravel**, com foco em:
 ## ✨ Funcionalidades
 
 - Cadastro, login, verificação.
+- ...
 
 ---
 
