@@ -157,13 +157,13 @@ Exemplo de build e run:
 
 ```bash
 docker build -t projeto-partida-laravel .
-docker run -p 8000:8000 --env-file .env projeto-partida-laravel
+docker run -p 8080:8080 --env-file .env projeto-partida-laravel
 ```
 
 Comando de start definido no container:
 
 ```bash
-php artisan migrate --force && php artisan optimize && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
+php artisan migrate --force && php artisan optimize && php artisan config:cache && php artisan route:cache && php artisan view:cache && php artisan serve --host=0.0.0.0 --port=${PORT:-8080}
 ```
 
 ---
