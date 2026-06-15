@@ -11,7 +11,7 @@ Aplicação web partida com **Laravel**.
 
 ## ✨ Funcionalidades
 
-- Cadastro, verificação, login.
+- Cadastro, login, verificação.
 
 ---
 
