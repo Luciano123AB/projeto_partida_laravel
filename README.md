@@ -23,7 +23,7 @@ Aplicação web partida com **Laravel**, com foco em:
 - **Backend:** PHP 8.5.3 + Laravel 13
 - **Frontend build:** Vite + CSS/JS
 - **Banco de dados:** MySQL 8
-- **Testes:** Pest/PHPUnit (Feature tests)
+- **Testes:** PestPHP (Feature/Unit tests)
 - **Containerização:** ...
 
 ---
