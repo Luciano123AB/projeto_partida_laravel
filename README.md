@@ -35,11 +35,13 @@ app/
   Console/
     Commands/             # Fluxos automáticos
   Exports/                # Estrutura da tabela para exportação
-  Http/
+  Http/    
     Controllers/          # Fluxos principais (Register, Login, etc.)
     Middleware/           # Regras de acesso
+    Requests/             # Validações
   Imports/                # Estrutura da tabela para importação
   Models/                 # Entidades (User, Note, etc.)
+  Providers/
   Services/               # Regras de negócio auxiliares
   View/                   # Contrutores dos componentes
 config/                   # Configurações gerais
@@ -51,12 +53,14 @@ docs/                     # Imagens usadas pelo site (Documentação)
 public/
   assets/
     images/               # Imagens usadas pelo site (Fundos)
-    js/                   # Respostas instantânias
 resources/
   css/                    # Estilos personalizados
+  js/                     # Respostas instantânias
   views/                  # Telas Blade
 routes/
+  api.php                 # Rotas das APIs da aplicação
   web.php                 # Rotas da aplicação
+storage/                  # Armazenamento (Arquivos, Logs, etc.)
 tests/                    # Testes automatizados
 ```
 
