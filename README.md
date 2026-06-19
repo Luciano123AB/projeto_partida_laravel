@@ -34,14 +34,20 @@ Aplicação web partida com **Laravel**, com foco em:
 app/
   Console/
     Commands/             # Fluxos automáticos
+  Events/                 # Eventos
+  Exceptions/             # Tratamento de exceções
   Exports/                # Estrutura da tabela para exportação
-  Http/    
+  Http/
     Controllers/          # Fluxos principais (Register, Login, etc.)
     Middleware/           # Regras de acesso
     Requests/             # Validações
   Imports/                # Estrutura da tabela para importação
+  Jobs/                   # Filas
+  Listeners/              # Ouvintes de eventos
   Models/                 # Entidades (User, Note, etc.)
-  Providers/
+  Notifications/          # Notificações de email
+  Policies/               # Regras de autorização
+  Providers/              # Service Providers
   Services/               # Regras de negócio auxiliares
   View/                   # Contrutores dos componentes
 config/                   # Configurações gerais
@@ -55,12 +61,14 @@ public/
     images/               # Imagens usadas pelo site (Fundos)
 resources/
   css/                    # Estilos personalizados
-  js/                     # Respostas instantânias
+  js/                     # Interatividade do frontend
   views/                  # Telas Blade
 routes/
+  channels.php            # Broadcasts
+  console.php             # Comandos de console
   api.php                 # Rotas das APIs da aplicação
   web.php                 # Rotas da aplicação
-storage/                  # Armazenamento (Arquivos, Logs, etc.)
+storage/                  # Armazenamento (Logs, Cache, etc.)
 tests/                    # Testes automatizados
 ```
 
