@@ -1,7 +1,7 @@
 <?php
 
-describe("testes de ...", function() {
-    it("verificar se ...", function() {
+describe("testes do ...", function() {
+    it("testar o ...", function() {
         //
     });
 });
