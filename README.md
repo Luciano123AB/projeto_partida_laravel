@@ -74,7 +74,7 @@ tests/                    # Testes automatizados
 
 ## 📸 Demonstração
 
-![Tela](docs/index.png)
+![Tela Inicial](docs/index.png)
 
 ---
 
