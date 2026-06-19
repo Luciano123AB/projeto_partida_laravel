@@ -34,17 +34,26 @@ Aplicação web partida com **Laravel**, com foco em:
 app/
   Console/
     Commands/             # Fluxos automáticos
-  Http/    
-    Controllers/          # Fluxos principais
+  Exports/                # Estrutura da tabela para exportação
+  Http/
+    Controllers/          # Fluxos principais (Register, Login, etc.)
     Middleware/           # Regras de acesso
-  Models/                 # Entidades (User, Nota)
+  Imports/                # Estrutura da tabela para importação
+  Models/                 # Entidades (User, Note, etc.)
   Services/               # Regras de negócio auxiliares
+  View/                   # Contrutores dos componentes
+config/                   # Configurações gerais
 database/
+  factories/              # Dados gerados
   migrations/             # Estrutura do banco
   seeders/                # Dados iniciais
+docs/                     # Imagens usadas pelo site (Documentação)
 public/
-  assets/                 # Imagem usada pelo site (Proprietário)
+  assets/
+    images/               # Imagens usadas pelo site (Fundos)
+    js/                   # Respostas instantânias
 resources/
+  css/                    # Estilos personalizados
   views/                  # Telas Blade
 routes/
   web.php                 # Rotas da aplicação
