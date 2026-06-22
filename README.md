@@ -58,6 +58,7 @@ database/
 docs/                     # Imagens usadas pelo site (Documentação do projeto)
 public/
   assets/
+    audios/               # Sons usados pelo site (Temas, Resultados, etc.)
     images/               # Imagens usadas pelo site (Fundos)
 resources/
   css/                    # Estilos personalizados
