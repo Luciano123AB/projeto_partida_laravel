@@ -60,9 +60,9 @@ public/
   assets/
     audios/               # Sons usados pelo site (Temas, Resultados, etc.)
     images/               # Imagens usadas pelo site (Fundos)
+    js/                   # Interatividade do frontend
 resources/
-  css/                    # Estilos personalizados
-  js/                     # Interatividade do frontend
+  css/                    # Estilos personalizados  
   views/                  # Telas Blade
 routes/
   channels.php            # Broadcasts
