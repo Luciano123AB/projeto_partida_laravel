@@ -34,18 +34,18 @@ Aplicação web partida com **Laravel**, com foco em:
 app/
   Console/
     Commands/             # Comandos Artisan personalizados.
-  Events/                 # Eventos
+  Events/                 # Eventos da aplicação.
   Exceptions/             # Tratamento de exceções.
   Exports/                # Classes de exportação. (Excel, CSV, etc.)
   Http/
-    Controllers/          # Fluxos principais. (Register, Login, etc.)
+    Controllers/          # Controladores da aplicação. (AuthController, UserController, etc.)
     Middleware/           # Regras de acesso.
     Requests/             # Validações
   Imports/                # Classes de importação. (Excel, CSV, etc.)
-  Jobs/                   # Filas
-  Listeners/              # Ouvintes de eventos.
-  Models/                 # Entidades Eloquent. (User, Note, etc.)
-  Notifications/          # Notificações de email.
+  Jobs/                   # Tarefas executadas em filas.
+  Listeners/              # Manipuladores de eventos.
+  Models/                 # Modelos Eloquent. (User, Note, etc.)
+  Notifications/          # Notificações (Email, Banco de Dados, Slack, etc.)
   Policies/               # Regras de autorização.
   Providers/              # Service Providers.
   Services/               # Regras de negócio auxiliares.
@@ -53,23 +53,24 @@ app/
     Components/           # Classes de componentes Blade.
 config/                   # Configurações gerais.
 bootstrap/
-  app.php                 # Inicialização da aplicação e middlewares globais.
+  app.php                 # Inicialização da aplicação e registro de middlewares.
 database/
   factories/              # Geração de dados fictícios para testes e seeders. (UserFactory, NoteFactory, etc.)
   migrations/             # Estrutura do banco.
-  seeders/                # População inicial do banco de dados. (DatatableSeeder)
+  seeders/                # População inicial do banco de dados. (DatabaseSeeder, UserSeeder, etc.)
 docs/                     # Imagens usadas pelo site. (Documentação do projeto)
 lang/                     # Arquivos de tradução.
 public/
   assets/
     audios/               # Sons usados pelo site. (Temas, Resultados, etc.)
-    images/               # Imagens usadas pelo site. (Fundos)
-    js/                   # Interatividade do frontend.
+    images/               # Imagens usadas pelo site. (Fundos, Ícones, etc.)
+    js/                   # Scripts carregados diretamente.
 resources/
   css/                    # Estilos personalizados.
+  js/                     # Scripts compilados pelo Vite.
   views/                  # Telas Blade.
 routes/
-  channels.php            # Broadcasts.
+  channels.php            # Broadcasts
   console.php             # Comandos de console.
   api.php                 # Rotas das APIs da aplicação.
   web.php                 # Rotas da aplicação.
