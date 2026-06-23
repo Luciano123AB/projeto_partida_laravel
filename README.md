@@ -33,44 +33,48 @@ Aplicação web partida com **Laravel**, com foco em:
 ```text
 app/
   Console/
-    Commands/             # Fluxos automáticos
+    Commands/             # Comandos Artisan personalizados.
   Events/                 # Eventos
-  Exceptions/             # Tratamento de exceções
-  Exports/                # Estrutura da tabela para exportação
+  Exceptions/             # Tratamento de exceções.
+  Exports/                # Classes de exportação. (Excel, CSV, etc.)
   Http/
-    Controllers/          # Fluxos principais (Register, Login, etc.)
-    Middleware/           # Regras de acesso
+    Controllers/          # Fluxos principais. (Register, Login, etc.)
+    Middleware/           # Regras de acesso.
     Requests/             # Validações
-  Imports/                # Estrutura da tabela para importação
+  Imports/                # Classes de importação. (Excel, CSV, etc.)
   Jobs/                   # Filas
-  Listeners/              # Ouvintes de eventos
-  Models/                 # Entidades (User, Note, etc.)
-  Notifications/          # Notificações de email
-  Policies/               # Regras de autorização
-  Providers/              # Service Providers
-  Services/               # Regras de negócio auxiliares
-  View/                   # Contrutores dos componentes
-config/                   # Configurações gerais
+  Listeners/              # Ouvintes de eventos.
+  Models/                 # Entidades Eloquent. (User, Note, etc.)
+  Notifications/          # Notificações de email.
+  Policies/               # Regras de autorização.
+  Providers/              # Service Providers.
+  Services/               # Regras de negócio auxiliares.
+  View/
+    Components/           # Classes de componentes Blade.
+config/                   # Configurações gerais.
+bootstrap/
+  app.php                 # Inicialização da aplicação e middlewares globais.
 database/
-  factories/              # Dados gerados
-  migrations/             # Estrutura do banco
-  seeders/                # Dados iniciais
-docs/                     # Imagens usadas pelo site (Documentação do projeto)
+  factories/              # Geração de dados fictícios para testes e seeders. (UserFactory, NoteFactory, etc.)
+  migrations/             # Estrutura do banco.
+  seeders/                # População inicial do banco de dados. (DatatableSeeder)
+docs/                     # Imagens usadas pelo site. (Documentação do projeto)
+lang/                     # Arquivos de tradução.
 public/
   assets/
-    audios/               # Sons usados pelo site (Temas, Resultados, etc.)
-    images/               # Imagens usadas pelo site (Fundos)
-    js/                   # Interatividade do frontend
+    audios/               # Sons usados pelo site. (Temas, Resultados, etc.)
+    images/               # Imagens usadas pelo site. (Fundos)
+    js/                   # Interatividade do frontend.
 resources/
-  css/                    # Estilos personalizados  
-  views/                  # Telas Blade
+  css/                    # Estilos personalizados.
+  views/                  # Telas Blade.
 routes/
-  channels.php            # Broadcasts
-  console.php             # Comandos de console
-  api.php                 # Rotas das APIs da aplicação
-  web.php                 # Rotas da aplicação
+  channels.php            # Broadcasts.
+  console.php             # Comandos de console.
+  api.php                 # Rotas das APIs da aplicação.
+  web.php                 # Rotas da aplicação.
 storage/                  # Armazenamento (Logs, Cache, etc.)
-tests/                    # Testes automatizados
+tests/                    # Testes automatizados.
 ```
 
 ## 📸 Demonstração
