@@ -51,9 +51,9 @@ app/
   Services/               # Regras de negócio auxiliares.
   View/
     Components/           # Classes de componentes Blade.
-config/                   # Configurações gerais.
 bootstrap/
   app.php                 # Inicialização da aplicação e registro de middlewares.
+config/                   # Configurações gerais.
 database/
   factories/              # Geração de dados fictícios para testes e seeders. (UserFactory, NoteFactory, etc.)
   migrations/             # Estrutura do banco.
@@ -67,7 +67,7 @@ public/
     js/                   # Scripts carregados diretamente.
 resources/
   css/                    # Estilos personalizados.
-  js/                     # Scripts compilados pelo Vite.
+  js/                     # Scripts compilados via Vite.
   views/                  # Telas Blade.
 routes/
   channels.php            # Broadcasts
