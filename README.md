@@ -83,7 +83,7 @@ tests/                    # Testes automatizados.
 Ex.:
 | Tela Inicial | Dashboard |
 |-------------|-----------|
-| ![](docs/index.png) | ![](docs/dashboard.png) |
+| ![](docs/index.png) | ![](docs/index.png) |
 
 ---
 
