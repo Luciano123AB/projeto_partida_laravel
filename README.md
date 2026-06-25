@@ -32,48 +32,48 @@ Aplicação web partida com **Laravel**, com foco em:
 Ex.:
 ```text
 app/
-  Console/
-    Commands/             # Comandos Artisan personalizados.
-  Events/                 # Eventos da aplicação.
-  Exceptions/             # Tratamento de exceções.
-  Exports/                # Classes de exportação. (Excel, CSV, etc.)
-  Http/
-    Controllers/          # Controladores da aplicação. (AuthController, UserController, etc.)
-    Middleware/           # Regras de acesso.
-    Requests/             # Validações
-  Imports/                # Classes de importação. (Excel, CSV, etc.)
-  Jobs/                   # Tarefas executadas em filas.
-  Listeners/              # Manipuladores de eventos.
-  Models/                 # Modelos Eloquent. (User, Note, etc.)
-  Notifications/          # Notificações (Email, Banco de Dados, Slack, etc.)
-  Policies/               # Regras de autorização.
-  Providers/              # Service Providers.
-  Services/               # Regras de negócio auxiliares.
-  View/
-    Components/           # Classes de componentes Blade.
+├── Console/
+    └── Commands/         # Comandos Artisan personalizados.
+├── Events/               # Eventos da aplicação.
+├── Exceptions/           # Tratamento de exceções.
+├── Exports/              # Classes de exportação. (Excel, CSV, etc.)
+├── Http/
+    ├── Controllers/      # Controladores da aplicação. (AuthController, UserController, etc.)
+    ├── Middleware/       # Regras de acesso.
+    └── Requests/         # Validações
+├── Imports/              # Classes de importação. (Excel, CSV, etc.)
+├── Jobs/                 # Tarefas executadas em filas.
+├── Listeners/            # Manipuladores de eventos.
+├── Models/               # Modelos Eloquent. (User, Note, etc.)
+├── Notifications/        # Notificações (Email, Banco de Dados, Slack, etc.)
+├── Policies/             # Regras de autorização.
+├── Providers/            # Service Providers.
+├── Services/             # Regras de negócio auxiliares.
+└── View/
+    └── Components/       # Classes de componentes Blade.
 bootstrap/
-  app.php                 # Inicialização da aplicação e registro de middlewares.
+└── app.php               # Inicialização da aplicação e registro de middlewares.
 config/                   # Configurações gerais.
 database/
-  factories/              # Geração de dados fictícios para testes e seeders. (UserFactory, NoteFactory, etc.)
-  migrations/             # Estrutura do banco.
-  seeders/                # População inicial do banco de dados. (DatabaseSeeder, UserSeeder, etc.)
+├── factories/            # Geração de dados fictícios para testes e seeders. (UserFactory, NoteFactory, etc.)
+├── migrations/           # Estrutura do banco.
+└── seeders/              # População inicial do banco de dados. (DatabaseSeeder, UserSeeder, etc.)
 docs/                     # Imagens usadas pelo site. (Documentação do projeto)
 lang/                     # Arquivos de tradução.
 public/
-  assets/
-    audios/               # Sons usados pelo site. (Temas, Resultados, etc.)
-    images/               # Imagens usadas pelo site. (Fundos, Ícones, etc.)
-    js/                   # Scripts carregados diretamente.
+└── assets/
+    ├── audios/           # Sons usados pelo site. (Temas, Resultados, etc.)
+    ├── images/           # Imagens usadas pelo site. (Fundos, Ícones, etc.)
+    └── js/               # Scripts carregados diretamente.
 resources/
-  css/                    # Estilos personalizados.
-  js/                     # Scripts compilados via Vite.
-  views/                  # Telas Blade.
+├── css/                  # Estilos personalizados.
+├── js/                   # Scripts compilados via Vite.
+└── views/                # Telas Blade.
 routes/
-  channels.php            # Broadcasts
-  console.php             # Comandos de console.
-  api.php                 # Rotas das APIs da aplicação.
-  web.php                 # Rotas da aplicação.
+├── channels.php          # Broadcasts
+├── console.php           # Comandos de console.
+├── api.php               # Rotas das APIs da aplicação.
+└── web.php               # Rotas da aplicação.
 storage/                  # Armazenamento (Logs, Cache, etc.)
 tests/                    # Testes automatizados.
 ```
