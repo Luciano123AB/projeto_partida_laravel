@@ -81,7 +81,7 @@ tests/                    # Testes automatizados.
 ## 📸 Demonstração
 
 Ex.:
-#Tela Inicial
+**Tela Inicial**
 ![](docs/index.png)
 
 ---
