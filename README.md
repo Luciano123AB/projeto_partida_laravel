@@ -1,7 +1,7 @@
 ![Laravel](https://img.shields.io/badge/Laravel-13-red)
 ![PHP](https://img.shields.io/badge/PHP-8.5-blue)
 
-# 🌐 Projeto Partida
+# 🌐 "Nome do Site"
 
 ## 📜 Sobre
 
@@ -13,23 +13,23 @@ Aplicação web partida com **Laravel**, com foco em:
 
 ## ✨ Funcionalidades
 
-- Cadastro, login, verificação.
 - ...
 
 ---
 
 ## 🧱 Stack
 
-- **Backend:** PHP 8.5.3 + Laravel 13
-- **Frontend build:** Vite + CSS/JS
-- **Banco de dados:** MySQL 8
-- **Testes:** PestPHP (Feature/Unit tests)
-- **Containerização:** ...
+- **Backend:** Ex.: PHP 8.5.3 + Laravel 13
+- **Frontend build:** Ex.: Vite + CSS/JS
+- **Banco de dados:** Ex.: MySQL 8
+- **Testes:** Ex.: PestPHP (Feature/Unit tests)
+- **Containerização:** Ex.: Docker
 
 ---
 
 ## 📁 Estrutura Principal
 
+Ex.:
 ```text
 app/
   Console/
@@ -80,12 +80,16 @@ tests/                    # Testes automatizados.
 
 ## 📸 Demonstração
 
-![Tela Index](docs/index.png)
+Ex.:
+| Tela Inicial |
+|-------------|-----------|
+| ![](docs/index.png) |
 
 ---
 
 ## ✅ Pré-Requisitos
 
+Ex.:
 - PHP 8.5+
 - Composer 2+
 - Node.js 20+
@@ -170,11 +174,12 @@ composer test
 
 Ajuste pelo menos:
 
+Ex.:
 - `APP_NAME`, `APP_ENV`, `APP_KEY`, `APP_DEBUG`, `APP_URL`
 - `CACHE_STORE`
 - `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
 - `LOG_CHANNEL`, `LOG_LEVEL`
-- `MAIL_FROM_ADDRESS`, `MAIL_FROM_NAME`, `MAIL_HOST`, `MAIL_MAILER`, `MAIL_PASSWORD`, `MAIL_PORT`, `MAIL_SCHEME`, (Opcional)`MAIL_TIMEOUT`, `MAIL_USERNAME`
+- `MAIL_FROM_ADDRESS`, `MAIL_FROM_NAME`, `MAIL_HOST`, `MAIL_MAILER`, `MAIL_PASSWORD`, `MAIL_PORT`, `MAIL_SCHEME`, (opcional)`MAIL_TIMEOUT`, `MAIL_USERNAME`
 - `QUEUE_CONNECTION`
 - `SESSION_DRIVER`, `SESSION_HTTP_ONLY`, `SESSION_SECURE_COOKIE`
 
@@ -218,4 +223,4 @@ Checklist recomendado:
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido por: **Luciano Eduardo Stefanello da Silva**.
+Projeto desenvolvido por: **Nome do Desenvolvedor**.
