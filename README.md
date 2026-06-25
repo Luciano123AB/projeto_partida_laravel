@@ -81,9 +81,9 @@ tests/                    # Testes automatizados.
 ## 📸 Demonstração
 
 Ex.:
-| Tela Inicial | Dashboard |
+| Tela Inicial | ... |
 |-------------|-----------|
-| ![](docs/index.png) | ![](docs/index.png) |
+| ![](docs/index.png) | ![]() |
 
 ---
 
