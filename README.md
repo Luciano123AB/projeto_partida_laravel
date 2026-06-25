@@ -1,6 +1,5 @@
 ![Laravel](https://img.shields.io/badge/Laravel-13-red)
 ![PHP](https://img.shields.io/badge/PHP-8.5-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Tests](https://img.shields.io/badge/tests-Passing-success)
 
 # 🌐 "Nome do Site"
