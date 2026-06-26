@@ -6,6 +6,8 @@
 # 🌐 "Nome do Site"
 - Status: 🟢 Concluído
 
+---
+
 ## 📑 Índice
 
 - Sobre
