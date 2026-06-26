@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Tests](https://img.shields.io/badge/tests-Passing-success)
 
-# 🌐 "Nome do Site"
+# 🌐 "Nome do Site" 🟢 Concluído
 
 ## 📑 Índice
 
