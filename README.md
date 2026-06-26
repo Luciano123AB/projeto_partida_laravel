@@ -5,6 +5,24 @@
 
 # 🌐 "Nome do Site"
 
+## 📑 Índice
+
+- Sobre
+- Funcionalidades
+- Stack
+- Estrutura
+- Demonstração
+- Pré-Requisitos
+- Instalação
+- Variáveis
+- Docker
+- Deploy
+- Roadmap
+- Licença
+- Autor
+
+---
+
 ## 📜 Sobre
 
 Aplicação web partida com **Laravel**, com foco em:
@@ -220,6 +238,13 @@ Checklist recomendado:
 ## 🗺️ Roadmap Técnico Sugerido (Melhorias)
 
 - ...
+
+---
+
+## 📄 Licença
+
+Ex:
+Este projeto está licenciado sob a licença MIT.
 
 ---
 
