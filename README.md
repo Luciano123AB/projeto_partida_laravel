@@ -4,7 +4,7 @@
 ![Tests](https://img.shields.io/badge/tests-Passing-success)
 
 # 🌐 "Nome do Site"
-- Status: 🟢 Concluído
+- Status: Ex: 🟢 Concluído
 
 ---
 
@@ -238,9 +238,11 @@ Checklist recomendado:
  
 ---
 
+```md
 ## 🗺️ Roadmap Técnico Sugerido (Melhorias)
 
-- ...
+- [x] ...
+```
 
 ---
 
