@@ -4,7 +4,7 @@
 ![Tests](https://img.shields.io/badge/tests-Passing-success)
 
 # 🌐 "Nome do Site"
-- 🟢 Concluído
+- Status: 🟢 Concluído
 
 ## 📑 Índice
 
